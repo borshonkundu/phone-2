@@ -7,4 +7,9 @@
     <color name="bg">#101318</color>
     <color name="text_primary">#FFFFFF</color>
     <color name="text_secondary">#B0B7C3</color>
+
+    <color name="blue">#1C64D2</color>
+    <color name="green">#20A464</color>
+    <color name="red">#E53935</color>
+    <color name="text_hint">#8A929E</color>
 </resources>

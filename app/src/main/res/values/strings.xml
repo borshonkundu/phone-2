@@ -1,12 +1,1 @@
-<resources>
-<string name="mute">Mute</string>
-<string name="speaker">Speaker</string>
-<string name="record">Record</string>
-<string name="answer">Answer</string>
-<string name="hangup">Hang up</string>
-<string name="hint_search">Search contacts or number</string>
-<string name="paste">Paste</string>
-<string name="call">Call</string>
-<string name="default_dialer">Set as default dialer</string>
-<string name="sd_folder">Choose SD card folder</string>
-</resources>
+<resources><string name="auto_record">Automatic Call Recording</string></resources>

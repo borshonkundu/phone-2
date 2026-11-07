@@ -1,0 +1,9 @@
+PasteDialer 2.2 — Build নির্দেশনা
+
+১) এই ফোল্ডারের ভেতরের সব ফাইল GitHub repository-র root-এ আপলোড করুন।
+২) .github ফোল্ডারসহ .github/workflows/build.yml অবশ্যই আপলোড করুন।
+৩) Actions ট্যাবে Build PasteDialer APK workflow চালান।
+৪) সবুজ Success হলে run-এর Summary পেজে PasteDialer-debug artifact ডাউনলোড করুন।
+৫) ZIP extract করে app-debug.apk ইনস্টল করুন।
+
+Android 5.1.1-এ সিস্টেম Default Dialer role এবং InCallService/DTMF API নেই। এই কারণে active-call paste/DTMF Android 5.1.1-এ পূর্ণভাবে সম্ভব নয়। Android 6.0+ (InCallService) এবং Android 7.0+ (default dialer selection) এ সংশ্লিষ্ট সুবিধা পাওয়া যায়।
